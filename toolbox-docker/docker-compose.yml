@@ -22,7 +22,7 @@ services:
     build:
       context: .
       dockerfile: ./mythril.Dockerfile
-    image: ghcr.io/maibornwolff/eden/toolbox-mythril
+    image: ghcr.io/myronrotter/eden/toolbox-mythril
     container_name: toolbox-mythril
     stdin_open: true # equivalent to docker run -i
     tty: true # equivalent to docker run -t
