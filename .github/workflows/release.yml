@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - master
+      - feature/ghcr-gha-test
 
 jobs:
   push:
